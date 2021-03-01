@@ -18,6 +18,7 @@ Route::get('/', function () {
 
 
 Route::get('/courses', 'CourseController@index')->name('course_index');
+Route::get('/contact', 'CourseController@contact')->name('course_contact');
 
 Auth::routes();
 
