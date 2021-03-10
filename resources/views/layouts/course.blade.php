@@ -6,7 +6,7 @@
     <title>Онлайн курсы по ОТ</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Free HTML5 Website Template by freehtml5.co" />
-    <meta name="keywords" content="" />
+    <meta name="keywords" content="охрана труда, обучение онлайн, красноармейский район , приморский край , пройти курсы , пожарно-технический минимум " />
 
 
     <!--
@@ -80,7 +80,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 text-right">
-                        <p class="num">Call: +01 123 456 7890</p>
+                        <p class="num">Call: +7 902 064 80 16</p>
                         <ul class="fh5co-social">
                             <li><a href="#"><i class="icon-twitter"></i></a></li>
                             <li><a href="#"><i class="icon-dribbble"></i></a></li>
@@ -94,25 +94,26 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xs-1">
-                        <div id="fh5co-logo"><a href="index.html">Learn<span>.</span></a></div>
+                        <div id="fh5co-logo"><a href="index.html"><span></span></a></div>
                     </div>
                     <div class="col-xs-11 text-right menu-1">
                         <ul>
-                            <li class="active"><a href="index.html">Home</a></li>
-                            <li><a href="courses.html">Courses</a></li>
-                            <li><a href="pricing.html">Pricing</a></li>
+                            <li class="active"><a href="index.html">Главная</a></li>
+                            <li><a href="courses.html">Курсы</a></li>
+                            <li><a href="pricing.html">Блог</a></li>
                             <li class="has-dropdown">
-                                <a href="blog.html">Blog</a>
+                                <a href="blog.html">Категории</a>
                                 <ul class="dropdown">
-                                    <li><a href="#">Web Design</a></li>
-                                    <li><a href="#">eCommerce</a></li>
-                                    <li><a href="#">Branding</a></li>
-                                    <li><a href="#">API</a></li>
+                                    <li><a href="#">Электробезопасность</a></li>
+                                    <li><a href="#">Охрана труда</a></li>
+                                    <li><a href="#">ПТМ</a></li>
+                                    <li><a href="#">Медицина</a></li>
+                                    <li><a href="#">Охрана труда на высоте</a></li>
                                 </ul>
                             </li>
                             <li><a href="contact.html">Contact</a></li>
                             <li class="btn-cta"><a href="#"><span>Login</span></a></li>
-                            <li class="btn-cta"><a href="#"><span>Create a Course</span></a></li>
+                            <li class="btn-cta"><a href="#"><span>PROMO - 8016</span></a></li>
                         </ul>
                     </div>
                 </div>
@@ -128,7 +129,7 @@
                 <div class="col-md-8 col-md-offset-2 text-center">
                     <div class="display-t">
                         <div class="display-tc animate-box" data-animate-effect="fadeIn">
-                            <h1>The Art of Teaching is the Art of Assisting Discovery</h1>
+                            <h1>Пройдите  онлайн-курсы в Интернет-магазине обучения/образования 24/7</h1>
                             <h2>Free html5 templates Made by <a href="http://freehtml5.co/" target="_blank">freehtml5.co</a></h2>
                             <p><a class="btn btn-primary btn-lg btn-learn" href="#">Take A Course</a> <a class="btn btn-primary btn-lg popup-vimeo btn-video" href="https://vimeo.com/channels/staffpicks/93951774"><i class="icon-play"></i> Watch Video</a></p>
                         </div>

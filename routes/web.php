@@ -20,6 +20,12 @@ Route::get('/', function () {
 Route::get('/courses', 'CourseController@index')->name('course_index');
 Route::get('/contact', 'CourseController@contact')->name('course_contact');
 
+Route::get('/notes', 'NotesController@index')->name('index');
+Route::get('/form_add', 'NotesController@form_add')->name('form_add');
+
+Route::get('/all_notes', 'NotesController@all_notes')->name('all_notes');
+Route::post('/notes', 'NotesController@createNote')->name('create_note');
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
