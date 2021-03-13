@@ -48,7 +48,7 @@
             <div class="divider-custom-line"></div>
         </div>
         <!-- Masthead Subheading-->
-        <p class="masthead-subheading font-weight-light mb-0">Graphic Artist - Web Designer - Illustrator</p>
+        <p class="masthead-subheading font-weight-light mb-0">Привет, я Карина  , я люблю маму  и папу </p>
     </div>
 </header>
 <!-- Portfolio Section-->
@@ -147,23 +147,15 @@
                 </tr>
                 </thead>
                 <tbody>
-                <tr>
-                    <td>1</td>
-                    <td>покушали </td>
-                    <td>10.45</td>
+                @foreach ($data as $item)
+                    <tr>
+                        <th> {{ $item->id }}</th>
+                        <th> {{ $item->action }}</th>
+                        <th> {{ $item->created_at }}</th>
+                    </tr>
+                @endforeach
 
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>печеньки</td>
-                    <td>11.33</td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td>сон</td>
-                    <td>27.76</td>
 
-                </tr>
                 </tbody>
             </table>
         </div>
@@ -282,7 +274,7 @@
                     <div class="row justify-content-center">
                         <div class="col-lg-8">
                             <!-- Portfolio Modal - Title-->
-                            <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal1Label">Log Cabin</h2>
+                            <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal1Label">мы кушаем</h2>
                             <!-- Icon Divider-->
                             <div class="divider-custom">
                                 <div class="divider-custom-line"></div>
@@ -292,11 +284,19 @@
                             <!-- Portfolio Modal - Image-->
                             <img class="img-fluid rounded mb-5" src="baby/assets/img/portfolio/cabin.png" alt="" />
                             <!-- Portfolio Modal - Text-->
-                            <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                            <button class="btn btn-primary" data-dismiss="modal">
-                                <i class="fas fa-times fa-fw"></i>
-                                Close Window
-                            </button>
+                            <p class="mb-5"></p>
+                            <form action="/karina" method="post">
+                                @csrf
+                                <button type="submit" name="action"  value="молочная смесь" class="btn btn-success">Nestogen</button>
+                                <button type="submit"  name="action" value="печеньки"  class="btn btn-warning">Печеньки</button>
+                                <button type="submit"  name="action" value="пюрешки"  class="btn btn-danger">Пюрешка</button>
+                                <button type="submit" name="action" value="каша"  class="btn btn-info">Кашки</button>
+                                <button class="btn btn-primary"   data-dismiss="modal">
+                                    <i class="fas fa-times fa-fw"></i>
+                                    Закрыть окно
+                                </button>
+                            </form>
+
                         </div>
                     </div>
                 </div>
@@ -483,7 +483,9 @@
 <script src="baby/assets/mail/jqBootstrapValidation.js"></script>
 <script src="baby/assets/mail/contact_me.js"></script>
 <!-- Core theme JS-->
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 <script src="baby/js/scripts.js"></script>
+<script  type="module" src="baby/js/page.js"></script>
 </body>
 </html>
 

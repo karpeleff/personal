@@ -15,7 +15,11 @@ class CreateActionsTable extends Migration
     {
         Schema::create('actions', function (Blueprint $table) {
             $table->bigIncrements('id');
-
+            $table->string('action');
+            $table->string('start_walk')->nullable();
+            $table->string('stop_walk')->nullable();
+            $table->string('start_sleep')->nullable();
+            $table->string('stop_sleep')->nullable();
             $table->timestamps();
         });
     }

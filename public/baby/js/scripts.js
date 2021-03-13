@@ -66,4 +66,7 @@
     });
   
   })(jQuery); // End of use strict
+
+
+  alert('hello');
   

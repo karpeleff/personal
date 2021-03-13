@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Note;
+use App\Models\Action;
 
 class NotesController extends Controller
 {
@@ -44,16 +45,21 @@ class NotesController extends Controller
         return view('notes/add');
     }
 
-    public function  createAction()
+    public function  createAction(Request $request)
     {
-
+      $record =  new Action;
+      $record->action = $request->action;
+      $record->save();
        //s return view('');
+
+        return  $this->allAction();
     }
 
     public function  allAction()
     {
-
-        return view('karina/index');
+        $data = Action::paginate(15);
+        return view('karina/index',['data' => $data]);
+       // return view('karina/index');
     }
 
 
