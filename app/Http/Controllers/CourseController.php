@@ -25,4 +25,9 @@ class CourseController extends Controller
     {
         return view('courses/pricing');
     }
+
+    public function   fixit()
+    {
+        return view('fixit');
+    }
 }

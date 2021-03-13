@@ -10,7 +10,7 @@ class NotesController extends Controller
 
     public function __construct()
     {
-        $this->middleware('auth');
+        //$this->middleware('auth');
     }
 
 
@@ -43,5 +43,19 @@ class NotesController extends Controller
 
         return view('notes/add');
     }
+
+    public function  createAction()
+    {
+
+       //s return view('');
+    }
+
+    public function  allAction()
+    {
+
+        return view('karina/index');
+    }
+
+
 
 }
