@@ -6,6 +6,8 @@ use Illuminate\Http\Request;
 use App\Models\Note;
 use App\Models\Action;
 
+use Carbon\Carbon;
+
 class NotesController extends Controller
 {
 
@@ -47,9 +49,13 @@ class NotesController extends Controller
 
     public function  createAction(Request $request)
     {
-      $record =  new Action;
-      $record->action = $request->action;
-      $record->save();
+
+        $mutable = Carbon::now()->addHours(10);
+
+         $record                  =  new Action;
+         $record->action          = $request->action;
+         $record->local_date_time = $mutable;
+         $record->save();
        //s return view('');
 
         return  $this->allAction();

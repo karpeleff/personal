@@ -151,7 +151,7 @@
                     <tr>
                         <th> {{ $item->id }}</th>
                         <th> {{ $item->action }}</th>
-                        <th> {{ $item->created_at }}</th>
+                        <th> {{ $item->local_date_time }}</th>
                     </tr>
                 @endforeach
 

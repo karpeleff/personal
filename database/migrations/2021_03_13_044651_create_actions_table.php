@@ -20,6 +20,7 @@ class CreateActionsTable extends Migration
             $table->string('stop_walk')->nullable();
             $table->string('start_sleep')->nullable();
             $table->string('stop_sleep')->nullable();
+            $table->string('local_date_time');
             $table->timestamps();
         });
     }
