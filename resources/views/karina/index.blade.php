@@ -233,6 +233,7 @@
                                 <button type="submit"  name="action" value="печеньки"  class="btn btn-warning">Печеньки</button>
                                 <button type="submit"  name="action" value="пюрешки"  class="btn btn-danger">Пюрешка</button>
                                 <button type="submit" name="action" value="каша"  class="btn btn-info">Кашки</button>
+                                <button type="submit" name="action" value="водичка"  class="btn btn-info">Пьем водичку</button>
                                 <button class="btn btn-primary"   data-dismiss="modal">
                                     <i class="fas fa-times fa-fw"></i>
                                     Закрыть окно
@@ -341,8 +342,9 @@
                                 @csrf
                                 <button type="submit" name="action"  value=" Я уснула" class="btn btn-success">Я заснула</button>
                                 <button type="submit"  name="action" value="Я проснулась"  class="btn btn-warning">Я проснулась</button>
-                                <button type="submit"  name="action" value="Я гуляю"  class="btn btn-danger">Я пошла гулять</button>
+                                <button type="submit"  name="action" value="Я гуляю"  class="btn btn-info">Я пошла гулять</button>
                                 <button type="submit" name="action" value="Я дома"  class="btn btn-info">Я пришла домой</button>
+                                <button type="submit" name="action" value="Я покакала"  class="btn btn-danger">Я покакала</button>
                                 <button class="btn btn-primary"   data-dismiss="modal">
                                     <i class="fas fa-times fa-fw"></i>
                                     Закрыть окно
