@@ -29,6 +29,8 @@ Route::post('/notes', 'NotesController@createNote')->name('create_note');
 
 Route::post('/karina', 'NotesController@createAction')->name('create_action');
 Route::get('/karina', 'NotesController@allAction')->name('all_action');
+Route::get('/amo', 'NotesController@AmoCrm')->name('amo');
+Route::post('/amo', 'NotesController@AmoCrm')->name('amo');
 
 
 
