@@ -63,7 +63,8 @@ class NotesController extends Controller
 
     public function AmoCrm()
     {
-        echo 'hello';
+       // echo 'hello';
+        return view('notes/amo');
     }
 
 
