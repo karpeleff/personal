@@ -66,7 +66,7 @@ class NotesController extends Controller
        // echo 'hello';
         return view('notes/amo');
     }
-
+  
 
 
 }
