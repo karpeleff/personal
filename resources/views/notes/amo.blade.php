@@ -10,12 +10,7 @@
 <script
     class="amocrm_oauth"
     charset="utf-8"
-    data-name="karpelev.com"
-    data-description="Integration description"
-    data-redirect_uri="http://karpelev.com/amo"
-    data-secrets_uri="https://example.com/secrets"
-
-    data-scopes="crm,notifications"
+    data-client-id="a74063f2-7826-4805-88d0-1982a69be5d0"
     data-title="Button"
     data-compact="false"
     data-class-name="className"
