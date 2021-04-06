@@ -1924,6 +1924,15 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log('Component mounted.');
@@ -37604,14 +37613,47 @@ var staticRenderFns = [
       _c("div", { staticClass: "row justify-content-center" }, [
         _c("div", { staticClass: "col-md-8" }, [
           _c("div", { staticClass: "card" }, [
-            _c("div", { staticClass: "card-header" }, [
-              _vm._v("Example Component")
-            ]),
+            _c("div", { staticClass: "card-header" }, [_vm._v("Resume")]),
             _vm._v(" "),
             _c("div", { staticClass: "card-body" }, [
-              _vm._v(
-                "\n                    I'm an example component.\n                "
-              )
+              _c("p", [_vm._v("Добро пожаловать на мою страничку!")]),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v(
+                  "Меня  зовут Алексей , и я начинающий вебразработчик , (хочется так думать) )"
+                )
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v(
+                  "В силу разных причин тестовые задания на hh.ru я благополучно продалбываю по времени ,\n                    поэтому решил выложить здесь некоторые мои наработки , для ознакомления."
+                )
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v(
+                  "Сама эта страничка это модифицированный дефолтный компонент Vue.js,\n                        собранный с помощью  Laravel  Mix "
+                )
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _vm._v(
+                  "Мои предпочтения направлены в сторону бекенда ,  поэтому выбрал laravel в качестве фреймворка для изучения."
+                )
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _c(
+                  "a",
+                  {
+                    attrs: {
+                      href: "https://github.com/karpeleff/karpelev.com.git",
+                      target: "blank"
+                    }
+                  },
+                  [_vm._v("ссылка на проект  на Github")]
+                )
+              ])
             ])
           ])
         ])
