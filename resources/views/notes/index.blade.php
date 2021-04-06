@@ -14,7 +14,7 @@
                 <th>Firstname</th>
                 <th>Lastname</th>
                 <th>Edit</th>
-               
+
             </tr>
             </thead>
             <tbody>
@@ -22,7 +22,7 @@
             @foreach ($data as $item)
                 <tr>
                     <th> {{ $item->header }}</th>
-                    <th> {{ $item->text }}</th>
+                    <th> {{substr($item->text,0,20)  }}</th>
                   <th>
                   <a href="/edit_note/{{ $item->id }}" title=""><i class="fas fa-edit" ></i></a>
                   <a href="/del_note/{{ $item->id }}"  title=""><i class="fas fa-trash"></i></a>
