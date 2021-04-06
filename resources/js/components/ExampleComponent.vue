@@ -14,6 +14,7 @@
                             собранный с помощью  Laravel  Mix </p>
                         <p>Мои предпочтения направлены в сторону бекенда ,  поэтому выбрал laravel в качестве фреймворка для изучения.</p>
                         <p><a href="https://github.com/karpeleff/karpelev.com.git"   target="blank">ссылка на проект  на Github</a></p>
+                        <p>Класс PDO  для работы с БД Mysql</p>
 
 
                     </div>

@@ -12,7 +12,7 @@ class NotesController extends Controller
 
     public function __construct()
     {
-        $this->middleware('auth');
+        //$this->middleware('auth');
     }
 
     public function index()
@@ -60,7 +60,7 @@ class NotesController extends Controller
 
        $data->save();
        return  $this->index();
-      
+
 
     }
 
@@ -73,7 +73,7 @@ class NotesController extends Controller
         $record = Note::find($id);
 
         $record->delete();
-       
+
         return $this->index();
     }
 
@@ -103,7 +103,7 @@ class NotesController extends Controller
        // echo 'hello';
         return view('notes/amo');
     }
-  
+
 
 
 }
