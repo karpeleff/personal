@@ -11,8 +11,8 @@
         <table class="table">
             <thead>
             <tr>
-                <th>Firstname</th>
-                <th>Lastname</th>
+                <th>заголовок</th>
+                <th>текст</th>
                 <th>Edit</th>
 
             </tr>

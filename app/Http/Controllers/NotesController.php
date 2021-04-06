@@ -104,6 +104,11 @@ class NotesController extends Controller
         return view('notes/amo');
     }
 
+    public function resume()
+    {
+        return view('notes/resume');
+    }
+
 
 
 }
