@@ -13,7 +13,8 @@
             <tr>
                 <th>Firstname</th>
                 <th>Lastname</th>
-                <th>Email</th>
+                <th>Edit</th>
+               
             </tr>
             </thead>
             <tbody>
@@ -22,7 +23,10 @@
                 <tr>
                     <th> {{ $item->header }}</th>
                     <th> {{ $item->text }}</th>
-                    <th> {{ $item->img }}</th>
+                  <th>
+                  <a href="/edit_note/{{ $item->id }}" title=""><i class="fas fa-edit" ></i></a>
+                  <a href="/del_note/{{ $item->id }}"  title=""><i class="fas fa-trash"></i></a>
+                  </th>
                 </tr>
             @endforeach
             </tbody>

@@ -21,6 +21,8 @@ Route::get('/courses', 'CourseController@index')->name('course_index');
 Route::get('/contact', 'CourseController@contact')->name('course_contact');
 
 Route::get('/notes', 'NotesController@index')->name('index');
+Route::get('/edit_note/{id}', 'NotesController@edit_note')->name('edit_note');
+Route::get('/del_note/{id}', 'NotesController@del_note')->name('del_note');
 Route::get('/form_add', 'NotesController@form_add')->name('form_add');
 
 Route::get('/all_notes', 'NotesController@all_notes')->name('all_notes');
