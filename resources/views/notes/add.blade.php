@@ -13,8 +13,8 @@
                         <input id="form_name" type="text" name="header" class="form-control" placeholder="" required="required" data-error="Firstname is required.">
                         <br><br>
                         <label for="form_message">Сообщение</label>
-                      
-                        <textarea id="form_message" name="text" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error=""></textarea>
+
+                        <textarea id="form_message" name="text" class="form-control" placeholder="пишем сюда" rows="4" required="required" data-error=""></textarea>
                         <br><br>
                         <input type="hidden" name="img"  value="link" >
                         <input type="submit" class="btn btn-success btn-send" value="Send message">
