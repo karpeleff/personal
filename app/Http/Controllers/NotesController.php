@@ -40,6 +40,43 @@ class NotesController extends Controller
         return view('notes/add');
     }
 
+    public function  edit_note($id)
+    {
+       // return view('notes/add');
+       $data = Note::find($id);
+       return view('notes/edit',['data' => $data]);
+
+    }
+
+    public function  update_note(Request $request)
+    {
+       // return view('notes/add');
+       $data = Note::find($request->id);
+
+       $data->header = $request->header;
+       $data->text = $request->text;
+       $data->img = 'tt';
+       //$data->img = $request->img;
+
+       $data->save();
+       return  $this->index();
+      
+
+    }
+
+
+
+
+
+    public function  del_note($id)
+    {
+        $record = Note::find($id);
+
+        $record->delete();
+       
+        return $this->index();
+    }
+
     public function  createAction(Request $request)
     {
 

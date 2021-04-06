@@ -32,7 +32,7 @@
             </tbody>
         </table>
     </div>
-                <button type="button" class="btn btn-success"><a href="/form_add" >Success</a></button>
+                <button type="button" class="btn btn-success"><a href="/form_add" >New_one</a></button>
 @endsection
 
 

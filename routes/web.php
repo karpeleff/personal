@@ -28,7 +28,7 @@ Route::get('/form_add', 'NotesController@form_add')->name('form_add');
 Route::get('/all_notes', 'NotesController@all_notes')->name('all_notes');
 //Route::get('/fixit', 'CourseController@fixit')->name('fixit ');
 Route::post('/notes', 'NotesController@createNote')->name('create_note');
-
+Route::post('/update_note', 'NotesController@update_note')->name('update_note');
 Route::post('/karina', 'NotesController@createAction')->name('create_action');
 Route::get('/karina', 'NotesController@allAction')->name('all_action');
 Route::get('/amo', 'NotesController@AmoCrm')->name('amo');
