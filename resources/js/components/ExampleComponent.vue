@@ -16,6 +16,7 @@
                         <p><a href="https://github.com/karpeleff/karpelev.com.git"   target="blank">ссылка на проект  на Github</a></p>
                         <p>Класс PDO  для работы с БД Mysql</p>
                         <p>игра на js</p>
+                        <p>авторизация с AMOCRM</p>
 
 
                     </div>
