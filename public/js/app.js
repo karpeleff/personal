@@ -1934,6 +1934,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log('Component mounted.');
@@ -37656,7 +37657,9 @@ var staticRenderFns = [
                 )
               ]),
               _vm._v(" "),
-              _c("p", [_vm._v("Класс PDO  для работы с БД Mysql")])
+              _c("p", [_vm._v("Класс PDO  для работы с БД Mysql")]),
+              _vm._v(" "),
+              _c("p", [_vm._v("игра на js")])
             ])
           ])
         ])
