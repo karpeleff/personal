@@ -15,8 +15,17 @@
                         <p>Мои предпочтения направлены в сторону бекенда ,  поэтому выбрал laravel в качестве фреймворка для изучения.</p>
                         <p><a href="https://github.com/karpeleff/karpelev.com.git"   target="blank">ссылка на проект  на Github</a></p>
                         <p>Класс PDO  для работы с БД Mysql</p>
+                        <p>Ну и немного Yii2 ) </p>
                         <p>игра на js</p>
                         <p>авторизация с AMOCRM</p>
+
+                        <p>Мои контакты </p>
+
+                        <a href="tel:+79020648016"><p> тел 8 902 064 80 16</p></a>
+                        <p><a href="mailto:alekseykarpelev@gmail.com">alekseykarpelev@gmail.com</a></p>
+
+
+
 
 
                     </div>

@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Models\Note;
 use App\Models\Action;
 use Carbon\Carbon;
+use App\Models\Document;
 
 class NotesController extends Controller
 {
@@ -96,16 +97,39 @@ class NotesController extends Controller
         return view('karina/index',['data' => $data]);
 
     }
+//api
+public function  testapi(Request $request)
+{
+//$data = Document::create($request->all());
+//return response()->json($data,201);
 
+ dd($request);
 
-    public function AmoCrm()
-    {
-        return view('notes/amo');
-    }
+}
+
+public  function apiForm()
+{
+    return view('notes/apiform');
+}
 
     public function resume()
     {
         return view('notes/resume');
+    }
+
+    public function getForm()
+    {
+        return view('notes/upload-form');
+    }
+
+    public function upload(Request $request)
+    {
+        foreach ($request->file() as $file) {
+            foreach ($file as $f) {
+                $f->move(storage_path('images'), time().'_'.$f->getClientOriginalName());
+            }
+        }
+        return "Успех";
     }
 
 

@@ -7,12 +7,13 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="form-group">
-              <example-component></example-component>
+                    <postaxios></postaxios>
                 </div>
             </div>
         </div>
 
 @endsection
+
 
 
 

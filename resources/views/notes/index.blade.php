@@ -25,7 +25,6 @@
                     <th> {{substr($item->text,0,20)  }}</th>
                   <th>
                   <a href="/edit_note/{{ $item->id }}" title=""><i class="fas fa-edit" ></i></a>
-                      <br>
                   <a href="/del_note/{{ $item->id }}"  title=""><i class="fas fa-trash"></i></a>
                   </th>
                 </tr>

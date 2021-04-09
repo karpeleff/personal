@@ -41,11 +41,14 @@ Route::post('/amo', 'NotesController@AmoCrm')->name('amo');
 Route::get('/get_key', 'NotesController@AuthRequest')->name('get_key');
 Route::get('/resume', 'NotesController@resume')->name('resume');
 
+Route::post('/testApi', 'NotesController@Atestapi')->name('testapi');
+Route::get('/apiForm', 'NotesController@apiForm')->name('apiForm');
 
-
-Auth::routes();
+Auth::routes();+
 
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('upload',['as' => 'upload_form', 'uses' => 'NotesController@getForm']);
 Route::post('upload',['as' => 'upload_file','uses' => 'NotesController@upload']);
+
+Route::get('/amo', 'AmoController@amo')->name('amo');
