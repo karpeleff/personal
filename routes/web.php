@@ -44,7 +44,7 @@ Route::get('/resume', 'NotesController@resume')->name('resume');
 Route::post('/testApi', 'NotesController@Atestapi')->name('testapi');
 Route::get('/apiForm', 'NotesController@apiForm')->name('apiForm');
 
-Auth::routes();+
+Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
