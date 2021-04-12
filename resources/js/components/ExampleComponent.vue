@@ -14,10 +14,9 @@
                             собранный с помощью  Laravel  Mix </p>
                         <p>Мои предпочтения направлены в сторону бекенда ,  поэтому выбрал laravel в качестве фреймворка для изучения.</p>
                         <p><a href="https://github.com/karpeleff/karpelev.com.git"   target="blank">ссылка на проект  на Github</a></p>
-                        <p>Класс PDO  для работы с БД Mysql</p>
-                        <p>Ну и немного Yii2 ) </p>
-                        <p>игра на js</p>
-                        <p>авторизация с AMOCRM</p>
+                        <p><a href="https://github.com/karpeleff/karpelev.com/blob/master/app/source/db.php"   target="blank">Класс PDO  для работы с БД Mysql</a></p>
+                        <p><a href="https://github.com/karpeleff/homework/blob/master/controllers/EngineController.php"   target="blank">Ну и немного Yii2 ) </a></p>
+
 
                         <p>Мои контакты </p>
 

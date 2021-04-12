@@ -1944,7 +1944,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log('Component mounted.');
@@ -37739,13 +37738,33 @@ var staticRenderFns = [
                 )
               ]),
               _vm._v(" "),
-              _c("p", [_vm._v("Класс PDO  для работы с БД Mysql")]),
+              _c("p", [
+                _c(
+                  "a",
+                  {
+                    attrs: {
+                      href:
+                        "https://github.com/karpeleff/karpelev.com/blob/master/app/source/db.php",
+                      target: "blank"
+                    }
+                  },
+                  [_vm._v("Класс PDO  для работы с БД Mysql")]
+                )
+              ]),
               _vm._v(" "),
-              _c("p", [_vm._v("Ну и немного Yii2 ) ")]),
-              _vm._v(" "),
-              _c("p", [_vm._v("игра на js")]),
-              _vm._v(" "),
-              _c("p", [_vm._v("авторизация с AMOCRM")]),
+              _c("p", [
+                _c(
+                  "a",
+                  {
+                    attrs: {
+                      href:
+                        "https://github.com/karpeleff/homework/blob/master/controllers/EngineController.php",
+                      target: "blank"
+                    }
+                  },
+                  [_vm._v("Ну и немного Yii2 ) ")]
+                )
+              ]),
               _vm._v(" "),
               _c("p", [_vm._v("Мои контакты ")]),
               _vm._v(" "),
@@ -50192,15 +50211,14 @@ __webpack_require__.r(__webpack_exports__);
 /*!********************************************************!*\
   !*** ./resources/js/components/PostAxiosComponent.vue ***!
   \********************************************************/
-/*! no static exports found */
+/*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _PostAxiosComponent_vue_vue_type_template_id_5e704012_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./PostAxiosComponent.vue?vue&type=template&id=5e704012&scoped=true& */ "./resources/js/components/PostAxiosComponent.vue?vue&type=template&id=5e704012&scoped=true&");
 /* harmony import */ var _PostAxiosComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./PostAxiosComponent.vue?vue&type=script&lang=js& */ "./resources/js/components/PostAxiosComponent.vue?vue&type=script&lang=js&");
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _PostAxiosComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _PostAxiosComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));
-/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
 
@@ -50230,7 +50248,7 @@ component.options.__file = "resources/js/components/PostAxiosComponent.vue"
 /*!*********************************************************************************!*\
   !*** ./resources/js/components/PostAxiosComponent.vue?vue&type=script&lang=js& ***!
   \*********************************************************************************/
-/*! no static exports found */
+/*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
