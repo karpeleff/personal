@@ -261,7 +261,7 @@
                     <div class="fh5co-blog animate-box">
                         <a href="#"><img class="img-responsive" src="images/project-4.jpg" alt=""></a>
                         <div class="blog-text">
-                            <h3><a href=""#>45 Minimal Workspace Rooms for Web Savvys</a></h3>
+                            <h3><a href=""#>пройти курс по охране труда в приморье</a></h3>
                             <span class="posted_on">Nov. 15th</span>
                             <span class="comment"><a href="">21<i class="icon-speech-bubble"></i></a></span>
                             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
@@ -273,7 +273,7 @@
                     <div class="fh5co-blog animate-box">
                         <a href="#"><img class="img-responsive" src="images/project-2.jpg" alt=""></a>
                         <div class="blog-text">
-                            <h3><a href=""#>45 Minimal Worksspace Rooms for Web Savvys</a></h3>
+                            <h3><a href=""#>охрана труда в красноармейском районе приморского края</a></h3>
                             <span class="posted_on">Nov. 15th</span>
                             <span class="comment"><a href="">21<i class="icon-speech-bubble"></i></a></span>
                             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
