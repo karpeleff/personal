@@ -7,6 +7,7 @@ use App\Models\Note;
 use App\Models\Action;
 use Carbon\Carbon;
 use App\Models\Document;
+use Illuminate\Support\Facades\Storage;
 
 class NotesController extends Controller
 {
@@ -15,7 +16,7 @@ class NotesController extends Controller
     {
         //$this->middleware('auth');
     }
-
+//записки
     public function index()
     {
         $data = Note::paginate(15);
@@ -58,16 +59,9 @@ class NotesController extends Controller
        $data->text = $request->text;
        $data->img = 'tt';
        //$data->img = $request->img;
-
        $data->save();
        return  $this->index();
-
-
     }
-
-
-
-
 
     public function  del_note($id)
     {
@@ -77,7 +71,7 @@ class NotesController extends Controller
 
         return $this->index();
     }
-
+//записки
     public function  createAction(Request $request)
     {
 
@@ -116,7 +110,7 @@ public  function apiForm()
     {
         return view('notes/resume');
     }
-
+//  загрузка файла
     public function getForm()
     {
         return view('notes/upload-form');
@@ -131,7 +125,7 @@ public  function apiForm()
         }
         return "Успех";
     }
-
+//загрузка файла
 
 
 }
