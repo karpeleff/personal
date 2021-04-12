@@ -68,7 +68,7 @@
     <!--[if lt IE 9]>
     <script src="js/respond.min.js"></script>
     <![endif]-->
-
+    <meta name="google-site-verification" content="1EeaptQKF8WfzWXQmZJgoZZgEJ4eHd1x3_1Mo5CvD9k" />
 </head>
 <body>
 

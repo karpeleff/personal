@@ -314,5 +314,5 @@
             </div>
         </div>
     </div>
-    google-site-verification: google364e7029cfcd11fd.html
+   
 @endsection
