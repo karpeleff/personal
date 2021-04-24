@@ -1944,6 +1944,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log('Component mounted.');
@@ -37763,6 +37764,20 @@ var staticRenderFns = [
                     }
                   },
                   [_vm._v("Ну и немного Yii2 ) ")]
+                )
+              ]),
+              _vm._v(" "),
+              _c("p", [
+                _c(
+                  "a",
+                  {
+                    attrs: {
+                      href:
+                        "https://github.com/karpeleff/php_tz/blob/master/yii-application/backend/controllers/AppleController.php",
+                      target: "blank"
+                    }
+                  },
+                  [_vm._v("еще  ТЗ Yii2  ")]
                 )
               ]),
               _vm._v(" "),
