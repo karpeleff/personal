@@ -8,8 +8,9 @@
     <title>Document</title>
 </head>
 <body>
+<label>sql injection</label>
 <form>
-<input type="text" method="post" action="check.php" >
+<input type="text" method="post" action="check.php"  name="string" >
     <button type="submit" >send</button>
 </form>
 </body>
