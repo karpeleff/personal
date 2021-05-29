@@ -52,3 +52,8 @@ Route::get('upload',['as' => 'upload_form', 'uses' => 'NotesController@getForm']
 Route::post('upload',['as' => 'upload_file','uses' => 'NotesController@upload']);
 
 Route::get('/amo', 'AmoController@amo')->name('amo');
+
+///////////feedback
+
+Route::get('/feedback_form', 'FeedbackController@index')->name('index');
+Route::post('/feedback_save', 'FeedbackController@save')->name('save');
