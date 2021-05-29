@@ -1,5 +1,5 @@
 <template>
-    
+    <p>это полный абзац</p>
 </template>
 
 <script>
