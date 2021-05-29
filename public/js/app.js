@@ -2016,6 +2016,26 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "FeedbackComponent"
 });
@@ -37896,10 +37916,38 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", [
-      _c("p", [_vm._v("это полный абзац")]),
-      _vm._v(" "),
-      _c("p", [_vm._v("это полный абзац2")])
+    return _c("div", { staticClass: "container" }, [
+      _c("div", { staticClass: "row justify-content-center" }, [
+        _c("div", { staticClass: "col-md-8" }, [
+          _c("div", { staticClass: "card" }, [
+            _c("div", { staticClass: "card-header" }, [
+              _vm._v("Форма обратной связи")
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "card-body" }, [
+              _c("input"),
+              _vm._v(" "),
+              _c("br"),
+              _vm._v(" "),
+              _c("br"),
+              _vm._v(" "),
+              _c("input"),
+              _vm._v(" "),
+              _c("br"),
+              _vm._v(" "),
+              _c("br"),
+              _vm._v(" "),
+              _c("textarea"),
+              _vm._v(" "),
+              _c("br"),
+              _vm._v(" "),
+              _c("br"),
+              _vm._v(" "),
+              _c("button", [_vm._v("send")])
+            ])
+          ])
+        ])
+      ])
     ])
   }
 ]
