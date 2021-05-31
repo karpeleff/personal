@@ -8,10 +8,29 @@ require('./bootstrap');
 
 window.Vue = require('vue');
 
+import store from './store/index'
+
 /**
  * The following block of code may be used to automatically register your
  * Vue components. It will recursively scan this directory for the Vue
  * components and automatically register them with their "basename".
+ *
+
+
+
+ Vue.component('posts', require('./components/Posts.vue'))
+ Vue.component('createPost', require('./components/CreatePost.vue'))
+
+ const app = new Vue({
+        el: '#app',
+        store
+    });
+ *
+ *
+ *
+ *
+ *
+ *
  *
  * Eg. ./components/ExampleComponent.vue -> <example-component></example-component>
  */
@@ -20,8 +39,8 @@ window.Vue = require('vue');
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default));
 
 Vue.component('example-component', require('./components/ExampleComponent.vue').default);
-Vue.component('postaxios', require('./components/PostAxiosComponent.vue').default)
-Vue.component('feedback', require('./components/FeedbackComponent.vue').default);
+//Vue.component('postaxios', require('./components/PostAxiosComponent.vue').default)
+//Vue.component('feedback', require('./components/FeedbackComponent.vue').default);
 //Vue.component('hello', require('./components/Hello.vue').default);
 
 /**
