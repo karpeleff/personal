@@ -22,6 +22,7 @@ window.Vue = require('vue');
 Vue.component('example-component', require('./components/ExampleComponent.vue').default);
 Vue.component('postaxios', require('./components/PostAxiosComponent.vue').default)
 Vue.component('feedback', require('./components/FeedbackComponent.vue').default);
+//Vue.component('hello', require('./components/Hello.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to

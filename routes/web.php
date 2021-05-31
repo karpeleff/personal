@@ -57,3 +57,7 @@ Route::get('/amo', 'AmoController@amo')->name('amo');
 
 Route::get('/feedback_form', 'FeedbackController@index')->name('index');
 Route::post('/feedback_save', 'FeedbackController@save')->name('save');
+
+/////////vue axios  lesson
+
+Route::get('/post_index','PostController@index');

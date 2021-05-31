@@ -6,13 +6,13 @@
                     <div class="card-header">Форма обратной связи</div>
 
                     <div class="card-body">
-                       <input >
+                       <input v-model="name" >
                         <br>
                         <br>
-                        <input>
+                        <input v-model="phone" >
                         <br>
                         <br>
-                        <textarea></textarea>
+                        <textarea>{{text}}</textarea>
                         <br>
                         <br>
                         <button>send</button>
@@ -27,9 +27,37 @@
 </template>
 
 <script>
-    export default {
-        name: "FeedbackComponent"
+    module.exports = {
+        data: function() {
+            return {
+              name  : '',
+                phone: '',
+                text: ''
+
+            };
+        }
+    },
+
+    computed: {
+        formData(){
+            return {
+                name:this.name,
+                phone:this.phone
+            }
+        }
+    },
+
+    methods: {
+        createAdministrator: function() {
+            this.$http.post('/feedback_save', this.formData).then(function(response) {
+                console.log(response);
+            }, function() {
+                console.log('failed');
+            });
+        }
     }
+
+s
 </script>
 
 <style scoped>

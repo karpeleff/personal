@@ -15,7 +15,7 @@ class CreateDocumentsTable extends Migration
     {
         Schema::create('documents', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->json('payload');
+           // $table->json('payload');
             $table->timestamps();
         });
     }
