@@ -39,6 +39,9 @@ import store from './store/index'
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default));
 
 Vue.component('example-component', require('./components/ExampleComponent.vue').default);
+Vue.component('posts', require('./components/Posts.vue').default);
+Vue.component('createPost', require('./components/CreatePost.vue').default);
+
 //Vue.component('postaxios', require('./components/PostAxiosComponent.vue').default)
 //Vue.component('feedback', require('./components/FeedbackComponent.vue').default);
 //Vue.component('hello', require('./components/Hello.vue').default);
@@ -51,4 +54,5 @@ Vue.component('example-component', require('./components/ExampleComponent.vue').
 
 const app = new Vue({
     el: '#app',
+    store
 });
