@@ -61,3 +61,7 @@ Route::post('/feedback_save', 'FeedbackController@save')->name('save');
 /////////vue axios  lesson
 
 Route::get('/post_index','PostController@index');
+
+///staff
+
+Route::get('/staff_index', 'StoreController@index')->name('store_index');
