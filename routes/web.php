@@ -65,3 +65,16 @@ Route::get('/post_index','PostController@index');
 ///staff
 
 Route::get('/staff_index', 'StoreController@index')->name('store_index');
+
+
+//blog
+ Route::get('/blog_index', 'BlogController@index')->name('blog_index');
+Route::get('/blog_create_category', 'BlogController@create_category')->name('blog_create_category');
+Route::get('/blog_create_material', 'BlogController@create_material')->name('blog_create_material');
+Route::get('/blog_create_tag', 'BlogController@create_tag')->name('blog_create_tag');
+Route::get('/blog_list_category', 'BlogController@list_category')->name('blog_list_category');
+Route::get('/blog_list_tag', 'BlogController@list_tag')->name('blog_list_tag');
+Route::get('/blog_view_material', 'BlogController@view_material')->name('blog_view_material');
+Route::post('/blog_add_tag', 'BlogController@add_tag')->name('blog_add_tag');
+Route::post('/blog_add_category', 'BlogController@add_category')->name('blog_add_category');
+
