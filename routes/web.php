@@ -77,4 +77,6 @@ Route::get('/blog_list_tag', 'BlogController@list_tag')->name('blog_list_tag');
 Route::get('/blog_view_material', 'BlogController@view_material')->name('blog_view_material');
 Route::post('/blog_add_tag', 'BlogController@add_tag')->name('blog_add_tag');
 Route::post('/blog_add_category', 'BlogController@add_category')->name('blog_add_category');
+//portfolio
+Route::get('/portfolio', 'PortfolioController@index')->name('portfolio');
 
