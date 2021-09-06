@@ -358,21 +358,21 @@
                 <div class="col-sm-6">
                     <ul class="list-unstyled list-progress">
                         <li>
-                            <div class="text-uppercase color-dark title "><span>Creative</span>  <small>80%</small></div>
+                            <div class="text-uppercase color-dark title "><span>GIT</span>  <small>80%</small></div>
                             <div class="progress-line">
                                 <div class="line" data-holdwidth="80%"></div>
                             </div>
                         </li>
                         <li>
-                            <div class="text-uppercase color-dark title">Leadership   <small>60%</small></div>
+                            <div class="text-uppercase color-dark title">English <small>40%</small></div>
                             <div class="progress-line">
-                                <div class="line" data-holdwidth="60%"></div>
+                                <div class="line" data-holdwidth="40%"></div>
                             </div>
                         </li>
                         <li>
-                            <div class="text-uppercase color-dark title">Communication   <small>70%</small></div>
+                            <div class="text-uppercase color-dark title">Wordpress  <small>30%</small></div>
                             <div class="progress-line">
-                                <div class="line" data-holdwidth="70%" ></div>
+                                <div class="line" data-holdwidth="30%" ></div>
                             </div>
                         </li>
                     </ul>
