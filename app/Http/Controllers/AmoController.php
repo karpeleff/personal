@@ -7,7 +7,6 @@ use AmoCRM\OAuth2\Client\Provider\AmoCRM;
 
 class AmoController extends Controller
 {
-
     public  function   amo()
     {
         $provider = new AmoCRM([
