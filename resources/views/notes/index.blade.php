@@ -32,6 +32,8 @@
             </tbody>
         </table>
     </div>
+
+                {{ $data->links() }}
                 <button type="button" class="btn btn-success"><a href="/form_add" >New_one</a></button>
 @endsection
 
